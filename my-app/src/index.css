@@ -3,6 +3,8 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
+    background-image: url(../public/images/Social-MediaImage.jpeg);
+    background-size:cover;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -10,4 +12,69 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.landingpage{
+  
+}
+.app-name{
+  margin-top: 1.2rem;
+  margin-left: 10%;
+  font-weight: bold;
+}
+.insta{
+  color: #B93A86;
+  font-size: 3rem;
+}
+.faud{
+  color: #792BA7;
+  font-size: 1.5rem;
+  text-decoration: underline double 1px #929292;
+}
+.signup-form{
+  margin: 10% 20%;
+  background-color: #E9E9E9;
+  text-align: center;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+  border-radius: 2rem;
+  min-width: 240px;
+}
+.signup-form .input{
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.signup-form .input input{
+  width:70%;
+  height: 1.75rem;
+  border-radius: 0.5rem;
+  border: none;
+  text-align: center;
+}
+.landing-btn{
+  display: flex;
+  justify-content: center;
+}
+.landing-btn button{
+ margin: 1rem;
+}
+.landing-btn .signin-btn{
+  background-color: #792BA7;
+  padding: 0.5rem 2rem;
+  border-radius: .5rem;
+  border: none;
+  color: #ffffff;
+}
+.landing-btn .register-btn{
+  padding: 0.5rem 2rem;
+  border-radius: .5rem;
+  border: solid;
+
+}
+
+@media only screen and (max-width:450px) {
+  .landing-btn{
+    display: block;
+  }
 }
