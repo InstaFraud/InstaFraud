@@ -14,9 +14,6 @@ code {
     monospace;
 }
 
-.landingpage{
-  
-}
 .app-name{
   margin-top: 1.2rem;
   margin-left: 10%;
@@ -31,8 +28,8 @@ code {
   font-size: 1.5rem;
   text-decoration: underline double 1px #929292;
 }
-.signup-form{
-  margin: 10% 20%;
+.signin-form{
+  margin: 10% 25%;
   background-color: #E9E9E9;
   text-align: center;
   padding-top: 2.5rem;
@@ -40,11 +37,31 @@ code {
   border-radius: 2rem;
   min-width: 240px;
 }
-.signup-form .input{
+.signup-form{
+  margin: 5% 25%;
+  background-color: #E9E9E9;
+  text-align: center;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+  border-radius: 2rem;
+  min-width: 240px;
+}
+.signin-form .input{
   margin-top: 1rem;
   margin-bottom: 2rem;
 }
+.signup-form .input{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
 
+.signin-form .input input{
+  width:70%;
+  height: 1.75rem;
+  border-radius: 0.5rem;
+  border: none;
+  text-align: center;
+}
 .signup-form .input input{
   width:70%;
   height: 1.75rem;
@@ -55,6 +72,11 @@ code {
 .landing-btn{
   display: flex;
   justify-content: center;
+}
+.register-btn{
+  display: flex;
+  justify-content: right;
+  margin-right: 15%;
 }
 .landing-btn button{
  margin: 1rem;
@@ -70,8 +92,19 @@ code {
   padding: 0.5rem 2rem;
   border-radius: .5rem;
   border: solid;
-
 }
+.register-btn .submit-btn{
+  padding: 0.5rem 2rem;
+  border-radius: .5rem;
+  margin-top: 1rem;
+  border: solid;
+}
+.register-btn .submit-btn:hover{
+  background-color: #792BA7;
+  color: #ffffff;
+}
+
+
 
 @media only screen and (max-width:450px) {
   .landing-btn{

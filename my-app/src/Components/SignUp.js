@@ -3,11 +3,14 @@ import React from 'react'
 function SignUp() {
   return (
     <form className='signup-form'>
-        <div className='input username'><input type='text' placeholder='User name or email address'></input></div>
+        <div className='input Firstname'><input type='text' placeholder='First Name'></input></div>
+        <div className='input Lastname'><input type='text' placeholder='Last Name'></input></div>
+        <div className='input Email'><input type='text' placeholder='Email address'></input></div>
+        <div className='input Phone'><input type='text' placeholder='Phone Number'></input></div>
         <div className='input password'><input type='text' placeholder='Password'></input></div>
-        <div className='landing-btn'>
-            <button className='signin-btn' type='submit'>Sign-In</button>
-            <button className='register-btn' type='submit'>Register</button>  
+        <div className='input Confirmpassword'><input type='text' placeholder='Confirm Password'></input></div>
+        <div className='register-btn'>
+            <button className='submit-btn' type='submit'>Submit</button>
         </div>
     </form>
   )
