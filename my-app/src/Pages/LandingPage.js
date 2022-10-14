@@ -3,7 +3,7 @@ import Login from '../Components/Login'
 import SignUp from '../Components/SignUp'
 
 function LandingPage() {
-    const [logedin, setLogedin] =useState(false)
+    const [logedin, setLogedin] =useState(true)
   return (
     <div className='landingpage'>
         <header className='app-name'>

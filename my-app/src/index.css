@@ -103,8 +103,63 @@ code {
   background-color: #792BA7;
   color: #ffffff;
 }
+/*pos-card*/
+.post-card{
+  background-color: #E9E9E9;
+  width: 40%;
+  margin:1.5rem auto;
+  border-radius: 1rem;
+}
+.post-card .author{
+   display: flex;
+   justify-content:flex-start;
+   align-items: center;
+}
+.post-card .author img{
+  width: 2rem;
+  height: 2rem;
+  border-radius: 100%;
+  margin: 1rem;
+}
+.post-card .author .post-text{
+  font-weight: bolder;
+  font-size: 0.75rem;
+}
+.post-card .post-content{
+  margin: 0.25rem 1rem;
+  font-size: 0.75rem;
+}
+.post-card img{
+ width: 100%;
+}
+.post-card .post-reaction{
+margin: 0.5rem 5%;
+text-align: center;
+}
 
+#post-btn{
+  position: relative;
+  right: 42px;
+  background-color: #ffffff;
+  border: none;
+  color: rgb(14, 14, 226);
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
 
+#comment-section{
+
+}
+#comment-section input{
+  width: 86%;
+  height: 2.5rem;
+  border-bottom-left-radius: 1rem ;
+  border-bottom-right-radius: 1rem ;
+  padding: 0 5%;
+  padding-right: 2rem;
+}
 
 @media only screen and (max-width:450px) {
   .landing-btn{
