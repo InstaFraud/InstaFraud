@@ -1,22 +1,30 @@
-import React from 'react'
+import React, { useState } from 'react'
+import TextField from "@material-ui/core/TextField";
 import { FcLike } from "react-icons/fc"
-// import { FiMessageSquare } from "react-icon/md"
+import { AiOutlineMessage } from "react-icons/ai";
+import { FaShareAlt } from "react-icons/fa";
 function Post() {
+  const [name, setName] = useState("");
   return (
     <div className='post-card'>
       <div className='author'>
-        <img src='https://thumbs.dreamstime.com/b/beautiful-woman-sexy-face-looks-camera-attractive-model-fashion-makeup-beauty-long-curly-hair-closeup-portrait-180076401.jpg' alt="pict" />
+        <img src='https://media.istockphoto.com/photos/beautiful-successful-latin-woman-smiling-picture-id1369508766?b=1&k=20&m=1369508766&s=170667a&w=0&h=xr3pk8VTmDoC9JXzEqMPL_4jZLiyIJWUMzKrBlVQiPI=' alt="pict" />
         <p className='post-text'>Elsa Barbara</p>
       </div>
       <p className='post-content'> when i was bla bla</p>
       <img src="https://i.pinimg.com/736x/76/2e/50/762e502a09ad48eff94361fa113d8b0a.jpg" alt="" className='post-image'/>
       <div className='post-reaction'>
-        <FcLike/>
-       {/* <AiOutlineMessage/> */}
+          <div className='icons'><FcLike/> <span>100</span></div>
+          <div className='icons'> <AiOutlineMessage/><span>500</span></div>
+          <div className='icons'><FaShareAlt/><span>30</span></div>
       </div>
       <div id='comment-section'>
-      <input type="text" placeholder='Add comment'></input>
-      {/* <button id='post-btn'>Post</button> */}
+         <div id="commentArea">
+           <textarea name=""  placeholder='Add your comment'></textarea>
+         </div>
+         <div className='post-btn'>
+           <button id='post-btn'>Post</button>
+          </div>
       </div>
     </div>
   )
