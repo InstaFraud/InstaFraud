@@ -1,4 +1,5 @@
 import React from 'react'
+import './ProfileViewStyle.css'
 
 function Profile() {
   return (

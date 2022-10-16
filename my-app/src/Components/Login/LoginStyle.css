@@ -1,0 +1,48 @@
+.signin-form{
+    margin: 10% 25%;
+    background-color: #E9E9E9;
+    text-align: center;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    border-radius: 2rem;
+    min-width: 240px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+  
+.signin-form .input{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+  
+.signin-form .input input{
+    width:70%;
+    height: 1.75rem;
+    border-radius: 0.5rem;
+    border: none;
+    text-align: center;
+}
+  
+.landing-btn{
+    display: flex;
+    justify-content: center;
+}
+.register-btn{
+    display: flex;
+    justify-content: right;
+    margin-right: 15%;
+}
+.landing-btn button{
+   margin: 1rem;
+  }
+.landing-btn .signin-btn{
+    background-color: #792BA7;
+    padding: 0.5rem 2rem;
+    border-radius: .5rem;
+    border: none;
+    color: #ffffff;
+}
+.landing-btn .register-btn{
+    padding: 0.5rem 2rem;
+    border-radius: .5rem;
+    border: solid;
+}

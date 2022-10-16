@@ -1,10 +1,12 @@
 import React, { useState } from 'react'
-import TextField from "@material-ui/core/TextField";
 import { FcLike } from "react-icons/fc"
 import { AiOutlineMessage } from "react-icons/ai";
 import { FaShareAlt } from "react-icons/fa";
+import './postStyle.css'
+
 function Post() {
   const [name, setName] = useState("");
+
   return (
     <div className='post-card'>
       <div className='author'>

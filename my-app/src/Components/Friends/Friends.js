@@ -1,4 +1,5 @@
 import React from 'react'
+import './FriendsStyle.css'
 
 function Friends() {
   return (
