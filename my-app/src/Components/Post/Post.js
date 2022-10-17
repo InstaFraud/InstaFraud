@@ -3,9 +3,10 @@ import { FcLike } from "react-icons/fc"
 import { AiOutlineMessage } from "react-icons/ai";
 import { FaShareAlt } from "react-icons/fa";
 import './postStyle.css'
+import {InstFraudContext} from '../../Context/Context'
 
 function Post() {
-  const [name, setName] = useState("");
+  const {InstUsers} = React.useContext(InstFraudContext)
 
   return (
     <div className='post-card'>
