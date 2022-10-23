@@ -1,0 +1,15 @@
+.author{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+ }
+.author img{
+   width: 2rem;
+   height: 2rem;
+   border-radius: 100%;
+   margin: 1rem;
+ }
+.author .post-text{
+   /* font-weight: bolder; */
+   font-size: 0.75rem;
+ }

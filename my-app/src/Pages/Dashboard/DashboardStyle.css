@@ -1,0 +1,9 @@
+.dashboardcontainer{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1.25fr;
+    justify-items: center;
+    margin-top: 2rem;
+}
+.trail{
+    margin-top: 3rem;
+}

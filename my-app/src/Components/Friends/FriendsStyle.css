@@ -1,0 +1,8 @@
+.NumberOfFriends{
+    font-weight: bold;
+}
+
+.NumberOfFriends .count{
+    color: blue;
+    margin-left: 1rem;
+}

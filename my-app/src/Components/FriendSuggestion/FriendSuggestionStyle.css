@@ -1,0 +1,23 @@
+.suggestion-header{
+    display: flex;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 0.75rem;
+    margin-left: 1rem;
+}
+.suggestion-header .friends{
+    margin-right: 2rem;
+}
+.suggested-friends{
+    display: flex;
+    justify-content: space-between;
+}
+
+.suggested-friends .follow-btn{
+   border: none;
+   background-color: #FFFFFF;
+   color: #3E71F4;
+}
+.fontAdjuster{
+    font-weight:400;
+}
