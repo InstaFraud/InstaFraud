@@ -6,6 +6,7 @@ import Suggestion from '../../Components/FriendSuggestion/Suggestion'
 import Friends from '../../Components/Friends/Friends'
 import TwitterBtn from '../../Components/TwitterBtn/TwitterBtn'
 import PostFormModal from '../../Components/PostFormModal/PostFormModal'
+import SideNavBar from '../../Components/SideNavBar/SideNavBar'
 import './DashboardStyle.css'
 import {InstFraudContext} from '../../Context/Context'
 
@@ -16,18 +17,32 @@ function DashboardPage() {
   return (<>
     <NavBar/>
     <div className='dashboardcontainer'>
-      <div>
-        <Friends/>
-        <div onClick={()=>setIsTwittClicked(true)}>
+      <div className='firstcolumn'>
+        <div className='fr-count'>
+          <Friends/>
+        </div>
+        
+        <div className='tiwt-btn' onClick={()=>setIsTwittClicked(true)}>
           <TwitterBtn className ='trail'/>
+        </div>
+        <div className='sidemenu'>
+          <SideNavBar/> 
         </div>
         
       </div>
-      <Post/>
-      <Suggestion/>
+      <div className='secondColumn'>
+        <Post/>
+        <Post/>
+      </div>
+      <div className='thirdColumn'>
+        <Suggestion/>
+      </div>
     </div>
     {isTwittClicked && <PostFormModal/>}
-    <Footer/>
+    <div className='dash-footer'>
+      <Footer/>
+    </div>
+    
   </>
     
   )
