@@ -3,7 +3,74 @@
     grid-template-columns: 1fr 2fr 1.25fr;
     justify-items: center;
     margin-top: 2rem;
+    scroll-behavior: smooth;
+
 }
+.sidemenu{
+    display: none;
+}
+
+/* .dash-footer{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+} */
 .trail{
     margin-top: 3rem;
+}
+.firstcolumn{
+
+}
+.secondColumn{
+ position: relative;
+}
+.thirdColumn{
+
+}
+
+@media screen and (max-width:730px){
+    .thirdColumn{
+        display:none;
+    }
+    .dashboardcontainer{
+        grid-template-columns: 1fr 2fr;
+    }
+    
+}
+
+@media screen and (max-width:500px){
+    .dashboardcontainer{
+        grid-template-columns: 1fr 5fr;
+    }
+    .sidemenu{
+        display: block;
+    }
+    .fr-count{
+        display: none;
+    }
+    .tiwt-btn{
+        display: none;
+    }
+    .sidebarNav{
+        display: flex;
+        flex-direction: column;
+        width: 30px;
+        height: 50%;
+        justify-content: space-between;
+        align-content: center;
+        position: fixed;
+        top: 6rem;
+        cursor: pointer;
+    }
+    .logout-avatar{
+        display: none;
+    }
+    .nav-innercontainer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 5%;
+    }
+    
 }
