@@ -7,7 +7,7 @@
     border-radius: 2rem;
     min-width: 240px;
     max-width: 600px;
-    height: 17rem;
+    height: 18rem;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
   
@@ -17,10 +17,11 @@
 }
 .signin-form .input input{
     width:70%;
-    height: 1.75rem;
+    height: 2.5rem;
     border-radius: 0.5rem;
     border: none;
     text-align: center;
+    font-size: 1rem;
 }
   
 .landing-btn{
@@ -30,6 +31,7 @@
 .landing-btn button{
    margin: 1rem;
    cursor: pointer;
+   font-size: 1rem;
   }
 .landing-btn .signin-btn{
     background-color: #792BA7;
@@ -55,12 +57,11 @@
         cursor: pointer;
         width: 70%;
         text-align: center;
-       }
-       .signin-form{
-           height: 20rem;
-       }
-       .register-btn{
-        text-align: center;
     }
-    
+    .signin-form{
+           height: 22rem;
+       }
+    .register-btn{
+        text-align: center;
+      }
 }

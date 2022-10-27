@@ -21,7 +21,7 @@
 .modalCardCont{
     min-width: 250px;
     max-width: 500px;
-    height: 280px;
+    height: 350px;
     margin: 5rem auto;
     background-color: #E3E3E3;
     z-index: 200;
@@ -35,8 +35,10 @@
 }
 .modalCardCont textarea{
     width: 90%;
-    height: 6rem;
+    height: 10rem;
     margin-left: 1rem;
+    padding: 1rem;
+    font-size: 1rem;
    border: solid 0.5px rgb(115, 113, 113) ;
    resize: none;
    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
