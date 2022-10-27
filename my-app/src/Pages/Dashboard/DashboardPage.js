@@ -32,7 +32,6 @@ function DashboardPage() {
       </div>
       <div className='secondColumn'>
         <Post/>
-        <Post/>
       </div>
       <div className='thirdColumn'>
         <Suggestion/>
