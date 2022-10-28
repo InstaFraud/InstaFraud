@@ -1,6 +1,6 @@
 .nav-outercontainer{
         background-color: #E9E9E9;
-        padding: 1rem 0;
+        padding: 3rem;
 }
 .nav-innercontainer{
     display: flex;
@@ -8,15 +8,20 @@
     align-items: center;
     margin: 0 5%;
 }
+.logo{
+    width: 150px;
+    height: 50px;
+}
 
 .insta-span{
     color: #B93A86;
-    font-size: 2rem;
+    font-size: 4rem;
     font-weight: bold;
+
   }
 .faud-span{
     color: #792BA7;
-    font-size: 1rem;
+    font-size: 3rem;
     text-decoration: underline double 1px #929292;
 }
 
@@ -44,6 +49,7 @@
 .search-icon:hover{
     color: #B93A86;
 }
+
 
 .logout-avatar{
     display: flex;
@@ -82,7 +88,7 @@
         display: none;
     }
     .search input{
-        width: 100%%;
+        width: 100%;
     }
     
 }

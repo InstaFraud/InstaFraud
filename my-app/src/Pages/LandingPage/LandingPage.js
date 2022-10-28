@@ -4,7 +4,7 @@ import SignUp from '../../Components/SignUp/SignUp'
 import './LandingStyle.css'
 
 function LandingPage() {
-    const [logedin, setLogedin] =useState(true)
+    const [logedin, setLogedin] =useState(false)
     
   return (
     <main className='land-page'>
