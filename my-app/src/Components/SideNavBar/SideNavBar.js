@@ -6,6 +6,7 @@ import PersonPinIcon from '@mui/icons-material/PersonPin';
 import PostAddIcon from '@mui/icons-material/PostAdd';
 import PowerSettingsNewIcon from '@mui/icons-material/PowerSettingsNew';
 import {InstFraudContext} from '../../Context/Context'
+import { Link } from 'react-router-dom';
 
 function SideNavBar() {
 
@@ -13,7 +14,9 @@ function SideNavBar() {
 
   return (
      <div className='sidebarNav'>
-            <HomeIcon/>
+            <Link to='/dashboard'>
+              <HomeIcon/>
+            </Link>
             <SearchOutlinedIcon/>
             <PostAddIcon onClick={()=>setIsTwittClicked(true)}/>
             <PersonPinIcon/>

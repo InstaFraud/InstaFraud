@@ -8,10 +8,12 @@ function NavBar({inputData}) {
   return (
     <div className='nav-outercontainer'>
       <div className='nav-innercontainer'>
-        <div className='logo'>
-          <span className='insta-span'>Insta</span>
-          <span className='faud-span'>Fraud</span>
-        </div>
+        <Link to='/dashboard'>
+          <div className='logo'>
+            <span className='insta-span'>Insta</span>
+            <span className='faud-span'>Fraud</span>
+          </div>
+        </Link>
         <div className='search'>
           <div className='search-input'>
             <input type="text" placeholder='Search' />

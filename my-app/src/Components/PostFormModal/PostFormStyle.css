@@ -6,6 +6,7 @@
     justify-content: space-between;
     align-items: center;
     margin: 1rem 1.5rem 3rem 3rem;
+    width: 85%;
 }
 
 .modalContainer{
@@ -21,7 +22,7 @@
 .modalCardCont{
     min-width: 250px;
     max-width: 500px;
-    height: 350px;
+    height: 280px;
     margin: 5rem auto;
     background-color: #E3E3E3;
     z-index: 200;
@@ -35,7 +36,7 @@
 }
 .modalCardCont textarea{
     width: 90%;
-    height: 10rem;
+    height: 14rem;
     margin-left: 1rem;
     padding: 1rem;
     font-size: 1rem;

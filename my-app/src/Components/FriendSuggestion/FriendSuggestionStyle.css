@@ -15,21 +15,17 @@
 
 .suggested-friends .follow-btn{
    border: none;
-   background-color: #FFFFFF;
+   background: none;
    color: #3E71F4;
 }
 .fontAdjuster{
     font-weight:400;
 }
 
-@media screen and (max-width:825px){
+@media screen and (max-width:860px){
     .suggestion-header{
-        font-size: 0.75rem;
+        font-size: 0.95rem;
         justify-self: left;
 
     }
-    .suggested-friends{
-        margin-left: 0;
-    }
- 
 }
