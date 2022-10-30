@@ -16,7 +16,7 @@
     left: 0;
     bottom: 0;
     right: 0;
-    opacity: 0.95;
+    background: rgba(76, 76, 76, 0.9);
 }
 .modalCardCont{
     min-width: 250px;

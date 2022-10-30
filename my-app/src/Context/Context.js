@@ -11,9 +11,16 @@ const InstFraudProvider=({children})=> {
     const [readmoreClicked, setreadmoreClicked] = useState(false) //to toggle read more btn
     const [likeAmount, setLikeAmount] = useState(0)
     const [likeCliked, setLikedClicked] = useState(false)
+    const [imageViewClicked, setImageViewClicked] = useState(false)
+    const [viewClickedPost,setViewClickedPost]= useState([])
 
     const toggleReadmoreText=()=>{
         setreadmoreClicked(prevState=>!prevState)
+    }
+    const viewImagehandler =(PostId) =>{
+      const clickedPost =  userPosts.filter((singlepost)=> PostId===singlepost.id)
+      setViewClickedPost(clickedPost)
+      setImageViewClicked(true)
     }
 
     const fetchLikeClickhandeler= (postid)=>{
@@ -54,6 +61,10 @@ const InstFraudProvider=({children})=> {
                 toggleReadmoreText,
                 likeAmount,
                 LikeClickhandeler,
+                viewImagehandler,
+                viewClickedPost,
+                imageViewClicked,
+                setImageViewClicked,
             }}>
                 {children}
         </InstFraudContext.Provider>
