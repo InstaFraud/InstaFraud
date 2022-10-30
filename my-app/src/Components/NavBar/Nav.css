@@ -1,6 +1,6 @@
 .nav-outercontainer{
         background-color: #E9E9E9;
-        padding: 1rem 0;
+        padding: 2rem 0;
 }
 .nav-innercontainer{
     display: flex;
@@ -24,12 +24,14 @@
     display: flex;
 }
 .search input{
-    width: 85%;
+    width: 100%;
     height: 1.5rem;
     padding: 0 2rem 0 1rem;
     background-color: #ffffff;
     outline: none;
     border: none;
+    height: 2rem;
+    font-size: 1rem;
 }
 .search input:focus{
     outline: none;
@@ -56,6 +58,7 @@
     background-color: #E9E9E9;
     outline: none;
     border: none;
+    font-size: 1rem;
 }
 .logout-btn:hover {
  text-decoration: underline 2.5px solid #792BA7;

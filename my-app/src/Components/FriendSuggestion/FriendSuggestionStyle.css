@@ -2,7 +2,7 @@
     display: flex;
     font-weight: bold;
     text-decoration: underline;
-    font-size: 0.75rem;
+    font-size: 1rem;
     margin-left: 1rem;
 }
 .suggestion-header .friends{
@@ -20,4 +20,16 @@
 }
 .fontAdjuster{
     font-weight:400;
+}
+
+@media screen and (max-width:825px){
+    .suggestion-header{
+        font-size: 0.75rem;
+        justify-self: left;
+
+    }
+    .suggested-friends{
+        margin-left: 0;
+    }
+ 
 }

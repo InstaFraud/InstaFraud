@@ -9,10 +9,11 @@ import PostFormModal from '../../Components/PostFormModal/PostFormModal'
 import SideNavBar from '../../Components/SideNavBar/SideNavBar'
 import './DashboardStyle.css'
 import {InstFraudContext} from '../../Context/Context'
+import ImageViewer from '../../Components/ImageViewer/ImageViewer'
 
 
 function DashboardPage() {
-  const {isTwittClicked, setIsTwittClicked} = React.useContext(InstFraudContext)
+  const {isTwittClicked, setIsTwittClicked,imageViewClicked} = React.useContext(InstFraudContext)
 
   return (<>
     <NavBar/>
@@ -28,7 +29,6 @@ function DashboardPage() {
         <div className='sidemenu'>
           <SideNavBar/> 
         </div>
-        
       </div>
       <div className='secondColumn'>
         <Post/>
@@ -38,6 +38,7 @@ function DashboardPage() {
       </div>
     </div>
     {isTwittClicked && <PostFormModal/>}
+    {imageViewClicked && <ImageViewer/>}
     <div className='dash-footer'>
       <Footer/>
     </div>
