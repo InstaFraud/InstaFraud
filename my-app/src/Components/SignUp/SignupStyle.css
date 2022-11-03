@@ -1,5 +1,5 @@
 .signup-form{
-    margin: 5% 25%;
+    margin: 5% 27%;
     background-color: #E9E9E9;
     text-align: center;
     padding-top: 2.5rem;
@@ -20,6 +20,8 @@
     border-radius: 0.5rem;
     border: none;
     text-align: center;
+    height: 2.5rem;
+    font-size: 1rem;
 }
 
 .register-btn .submit-btn{
@@ -27,9 +29,23 @@
     border-radius: .5rem;
     margin-top: 1rem;
     border: solid;
+    font-size: 1rem;
 }
 
 .register-btn .submit-btn:hover{
     background-color: #792BA7;
     color: #ffffff;
+}
+
+#signinbtn{
+  border: none;
+  color: blue;
+  background-color: #E9E9E9;
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: 1.15rem;
+}
+.signup-form h5{
+    font-size: 1.15rem;
+    margin: 0 0.2rem;
 }
