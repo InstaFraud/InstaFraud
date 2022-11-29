@@ -16,7 +16,7 @@ function Footer() {
                 <a href="https://www.linkedin.com/"><FaLinkedinIn/></a>
               </div>
             </div>
-            <p className = 'copyright'> &copy; {thisYear > 2022 ? `2022-${thisYear}`: thisYear} designed and implemented By Keegan, Jordan and Yared.</p>
+            <p className = 'copyright'> &copy; {thisYear > 2022 ? `2022-${thisYear}`: thisYear} designed and implemented By Yared Gari ,Keegan Carpenter and Jordan Hornback.</p>
         </div>
   )
 }

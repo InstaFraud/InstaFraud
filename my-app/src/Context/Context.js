@@ -4,54 +4,69 @@ import Posts from './MockData/UsersData'
 const InstFraudContext = React.createContext();
 
 const InstFraudProvider=({children})=> {
+    const [Auth, setAuth] = useState()
     const [InstUsers, setInstaUsers] = useState([]);
-    const [userPosts, setUserPosts] = useState([])    //mockdata
+    // const [userPosts, setUserPosts] = useState([])    //mockdata
+    const [allPosts, setAllPosts] = useState([]);
+    const [postSuccess, setPostSuccess] = useState("");
+    const [postDeleted, setPostDeleted] = useState(false);
     const [registerClicked, setRegisterClicked] = useState(false)
     const [isTwittClicked, setIsTwittClicked] = useState(false)
     const [readmoreClicked, setreadmoreClicked] = useState(false) //to toggle read more btn
-    const [likeAmount, setLikeAmount] = useState(0)
+    const [likeReaction, setLikeReaction] = useState({likes:100, isLiked:false, post_id:0})
     const [likeCliked, setLikedClicked] = useState(false)
     const [imageViewClicked, setImageViewClicked] = useState(false)
     const [viewClickedPost,setViewClickedPost]= useState([])
+    const [commentSuccess, setCommentSuccess] = useState(false);
+    const [viewComment, setViewComment] = useState(false);
+
 
     const toggleReadmoreText=()=>{
         setreadmoreClicked(prevState=>!prevState)
     }
     const viewImagehandler =(PostId) =>{
-      const clickedPost =  userPosts.filter((singlepost)=> PostId===singlepost.id)
+      const clickedPost =  allPosts.filter((singlepost)=> PostId===singlepost.id)
+      console.log(clickedPost)
       setViewClickedPost(clickedPost)
       setImageViewClicked(true)
     }
-
+console.log(allPosts)
     const fetchLikeClickhandeler= (postid)=>{
       // const likes = fetch(`https://inst.com ${postid}`)
-      const likes =200
-      setLikeAmount(likes)
+      const like =200
+      //setLikeReaction({likes:like, isLiked:false, post_id:0})
     }
 
-   const LikeClickhandeler=()=>{
-     if(likeCliked){
-      setLikeAmount(likeAmount - 1)
-      setLikedClicked(false)
+   const LikeClickhandeler=(id)=>{
+     if(likeReaction.isLiked){
+      setLikeReaction({likes:likeReaction.likes-1, isLiked:!likeReaction.isLiked, post_id:id})
+      //setLikedClicked(false)
     }else{
-      setLikeAmount(likeAmount + 1)
-      setLikedClicked(true)
+      setLikeReaction({likes:likeReaction.likes+1, isLiked:!likeReaction.isLiked, post_id:id})
+      //setLikedClicked(true)
     }
    }
-    
-
-    useEffect(()=>{
-      setUserPosts(Posts)
-    },[userPosts])
    
     useEffect(()=>{
       fetchLikeClickhandeler()
     },[])
+
     
   return (
         <InstFraudContext.Provider value={{
+                Auth, 
+                setAuth,
+                commentSuccess, 
+                setCommentSuccess,
+                viewComment, 
+                setViewComment,
+                postDeleted, 
+                setPostDeleted,
                 InstUsers,
-                userPosts,
+                allPosts, 
+                setAllPosts,
+                postSuccess, 
+                setPostSuccess,
                 setInstaUsers,
                 registerClicked, 
                 setRegisterClicked,
@@ -59,7 +74,8 @@ const InstFraudProvider=({children})=> {
                 setIsTwittClicked,
                 readmoreClicked,
                 toggleReadmoreText,
-                likeAmount,
+                likeReaction,
+                setLikeReaction,
                 LikeClickhandeler,
                 viewImagehandler,
                 viewClickedPost,

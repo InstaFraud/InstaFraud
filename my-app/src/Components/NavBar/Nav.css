@@ -11,12 +11,12 @@
 
 .insta-span{
     color: #B93A86;
-    font-size: 2rem;
+    font-size: 3.5rem;
     font-weight: bold;
   }
 .faud-span{
     color: #792BA7;
-    font-size: 1rem;
+    font-size: 1.5rem;
     text-decoration: underline double 1px #929292;
 }
 
@@ -25,13 +25,12 @@
 }
 .search input{
     width: 100%;
-    height: 1.5rem;
     padding: 0 2rem 0 1rem;
     background-color: #ffffff;
     outline: none;
     border: none;
-    height: 2rem;
-    font-size: 1rem;
+    height: 3rem;
+    font-size: 1.5rem;
 }
 .search input:focus{
     outline: none;
@@ -41,6 +40,10 @@
     display: grid;
     place-items:center;
     right:20px;
+    font-size: 1.5rem;
+}
+.search-icon:hover{
+    cursor: pointer;
 }
 
 .search-icon:hover{
@@ -59,14 +62,17 @@
     outline: none;
     border: none;
     font-size: 1rem;
+    font-size: 1.75rem;
+    font-weight: bold;
 }
 .logout-btn:hover {
  text-decoration: underline 2.5px solid #792BA7;
+cursor: pointer;
 }
 
 .logout-avatar img{
-    width: 1.75rem;
-    height: 1.75rem;
+    width: 2.7rem;
+    height: 2.7rem;
     border-radius: 50%;
 }
  
@@ -85,7 +91,7 @@
         display: none;
     }
     .search input{
-        width: 100%%;
+        width: 100%;
     }
     
 }

@@ -10,7 +10,7 @@
     justify-content: center;
   }
 .post-reaction .icons span{
-    font-size: 0.5rem;
+    font-size: 0.75rem;
     text-align: center;
   }
   #comment-section > div.post-btn{
@@ -23,17 +23,27 @@
     height: 4rem;
     background-color: #ffffff;
     border-bottom-right-radius: 1rem;
+    cursor: pointer;
   }
   
   #post-btn{
     position: absolute;
-    right: 10px;
-    top:1.5rem;
+    right: 18px;
+    top:1.2rem;
     background-color: #ffffff;
     border: none;
-    color: rgb(14, 14, 226);
     font-weight: bold;
     background: none;
+    cursor: pointer;
+    font-size: 1.75rem;
+  }
+  #post-btn:hover{
+    color: rgb(14, 14, 226);
+    
+  }
+  #comment-section > div.post-btn:hover{
+  color:#ffffff;
+  background-color: #E9E9E9;
   }
   
   #comment-section{
@@ -53,8 +63,13 @@
     outline: none;
     resize: none;
     height: 4rem;
+    font-size: 1.5rem;
     border-bottom-left-radius: 1rem;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
+  }
+  .icons{
+    cursor: pointer;
+    font-size: 2rem;
   }

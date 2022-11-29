@@ -12,14 +12,14 @@
     position: relative;
     margin-left: 3.5rem;
     top: -1rem;
-    font-size: 0.8rem;
+    font-size: 1rem;
 }
 .author img{
     width: 1.25rem;
     height: 1.25rem;
   }
 
-.author .post-text{
- font-size: 0.8rem;
+.author .namefont-comment{
+ font-size: 1.2rem;
  font-weight: bold;
 }
