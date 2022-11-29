@@ -7,7 +7,7 @@
     border-radius: 2rem;
     min-width: 240px;
     max-width: 450px;
-    height: 19rem;
+    height: 24rem;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
   
@@ -16,14 +16,16 @@
     margin-bottom: 2rem;
 }
 .signin-form .input input{
-    width:70%;
-    height: 2.5rem;
+    width:75%;
+    height: 3rem;
     border-radius: 0.5rem;
     border: none;
     text-align: center;
-    font-size: 1rem;
+    font-size: 1.25rem;
 }
-  
+.signin-form h1{
+    margin-bottom: 2rem;
+} 
 .landing-btn{
     display: flex;
     justify-content: center;
@@ -31,10 +33,10 @@
 .landing-btn button{
    margin: 1rem;
    cursor: pointer;
-   font-size: 1rem;
+   font-size: 1.25rem;
   }
 .landing-btn .signin-btn{
-    background-color: #792BA7;
+    background-color: #b93a86;
     padding: 0.5rem 2rem;
     border-radius: .5rem;
     border: none;
@@ -45,6 +47,15 @@
     border-radius: .5rem;
     border: solid;
 }
+
+.offScreen{
+
+}
+.errMsg{
+    color: #ed2121;
+    margin: 1.5rem 0;
+    font-size: 1.25rem;
+}
 @media screen and (max-width:860px){
     .signin-form{
         max-width: 420px;
@@ -52,20 +63,17 @@
 }
 @media screen and (max-width:700px){
     .landing-btn{
-        display: flex;
+        display: inline-block;
         flex-direction: column;
         align-items: center;
     }
     .landing-btn button{
-        margin-bottom: 1rem;
+        
         cursor: pointer;
-        width: 70%;
+        width: 50%;
         text-align: center;
     }
     .signin-form{
-           height: 22rem;
+           height: 28rem;
        }
-    .register-btn{
-        text-align: center;
-      }
 }

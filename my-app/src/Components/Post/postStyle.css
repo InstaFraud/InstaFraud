@@ -7,7 +7,7 @@
   }
   .post-card .post-content{
     margin: 0.25rem 1rem;
-    font-size: 1rem;
+    font-size: 1.5rem;
     position: relative;
     overflow-wrap:break-word;
   }
@@ -19,4 +19,8 @@
 
   .namefont{
     font-weight: bold;
+    font-size: 2rem;
+  }
+  .post-image{
+    cursor: pointer;
   }

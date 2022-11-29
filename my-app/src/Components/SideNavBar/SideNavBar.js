@@ -19,8 +19,12 @@ function SideNavBar() {
             </Link>
             <SearchOutlinedIcon/>
             <PostAddIcon onClick={()=>setIsTwittClicked(true)}/>
-            <PersonPinIcon/>
-            <PowerSettingsNewIcon/>
+            <Link to='/profile'>
+              <PersonPinIcon/>
+            </Link>
+            <Link to='/login'>
+              <PowerSettingsNewIcon/>
+            </Link>
      </div>
   )
 }
