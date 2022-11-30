@@ -27,7 +27,7 @@ The main goal of this project was to develop a full stack application that can a
 
 ## Development setup
 
-For a local development, depending on which section of the app you want run use the following commands to install all dependencies and spin the server. Potentially do this for multiple platforms.
+For a local development setup, depending on which section of the application you want run, use the following commands to install all dependencies and spin the server. Potentially do this for multiple platforms.
 
 To run front end  
 ```sh
@@ -53,7 +53,7 @@ docker-compose up
 ```
 ## Usage example
 
-Here are few screenshots to demonstrate you what our app does.
+Here are few screenshots to demonstrate what our app does.
 
 
 
