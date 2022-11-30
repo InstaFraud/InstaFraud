@@ -6,7 +6,7 @@
 [![Build Status][travis-image]][travis-url]
 [![Downloads Stats][npm-downloads]][npm-url]
 
-The main goal of this project was to develop a full stack application that can able run accross all environments with the help of Docker. simultaneously show off the abilities we learned during our bootcamp training. Thus the main, features included in this release are, user authentication and authorization( registration, signin and refresh token), role based CRUD operation on different posts, follow/unfollow other users, view profile and users reaction feature such as like and comment. To achieve this we utilized the following tech stacks;
+The main goal of this project was to develop a full stack application that can able run accross all environments with the help of Docker. simultaneously show off the skills/abilities we learned during our bootcamp training. Thus the main, features included in this release are, user authentication and authorization( registration, signin and refresh token), role based CRUD operation on different posts, follow/unfollow other users, view profile and users reaction feature such as like and comment. To achieve this we utilized the following tech stacks;
 
 ![](header.png)
 
