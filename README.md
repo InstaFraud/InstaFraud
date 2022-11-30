@@ -54,8 +54,10 @@ docker-compose up
 ## Usage example
 
 Here are few screenshots to demonstrate what our app does.
-
-
+![](my-app/public/images/Screen1.png)
+![](my-app/public/images/Screen2.png)
+![](my-app/public/images/Screen3.png)
+![](my-app/public/images/Screen4.png)
 
 ## Contributors 
 
