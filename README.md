@@ -27,7 +27,7 @@ The main goal of this project was to develop a full stack application that can a
 
 ## Development setup
 
-Describe how to install all development dependencies and how to run an automated test-suite of some kind. Potentially do this for multiple platforms.
+For a local development, depending on which section of the app you want run use the following commands to install all dependencies and spin the server. Potentially do this for multiple platforms.
 
 To run front end  
 ```sh
