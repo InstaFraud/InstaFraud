@@ -6,11 +6,11 @@
 [![Build Status][travis-image]][travis-url]
 [![Downloads Stats][npm-downloads]][npm-url]
 
-One to two paragraph statement about your product and what it does.
+The main goal of this project was to develop a full stack application that can able run accross all environments. Thus the main, features included in this release are, user authentication and authorization( registration, signin and refresh token), role based CRUD operation on different posts, follow/unfollow other users, view profile and users reaction feature such as like and comment. to achieve this we used the following tech stack
 
 ![](header.png)
 
-## Installation
+## Tech Stacks 
 
 OS X & Linux:
 
