@@ -40,10 +40,9 @@ cd into Instafraud/my-app
 npm install
 npm start
 ```
-To run run both front and back end on docker 
+To run both front and back-end on docker 
 
 ```sh
-###To run run both front and back end on docker 
 cd into Instafraud/my-app
 npm install
 cd into Instafraud/my-app
@@ -57,9 +56,12 @@ A few motivating and useful examples of how your product can be used. Spice this
 
 _For more examples and usage, please refer to the [Wiki][wiki]._
 
-## Meta
+## Contributors 
 
-Your Name – [@YourTwitter](https://twitter.com/dbader_org) – YourEmail@example.com
+* Yared Gari 
+* Kegaan Carpenter 
+* Jordan Hornback
+
 
 Distributed under the XYZ license. See ``LICENSE`` for more information.
 
