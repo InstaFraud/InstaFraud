@@ -71,9 +71,9 @@ Distributed under the XYZ license. See ``LICENSE`` for more information.
 ## Contributing
 
 1. Fork it (<https://github.com/yourname/yourproject/fork>)
-2. Create your feature branch (`git checkout -b feature/fooBar`)
-3. Commit your changes (`git commit -am 'Add some fooBar'`)
-4. Push to the branch (`git push origin feature/fooBar`)
+2. Create your feature branch (`git checkout -b feature/anyName`)
+3. Commit your changes (`git commit -am 'Add some anyName'`)
+4. Push to the branch (`git push origin feature/anyName`)
 5. Create a new Pull Request
 
 <!-- Markdown link & img dfn's -->
@@ -83,16 +83,3 @@ Distributed under the XYZ license. See ``LICENSE`` for more information.
 [travis-image]: https://img.shields.io/travis/dbader/node-datadog-metrics/master.svg?style=flat-square
 [travis-url]: https://travis-ci.org/dbader/node-datadog-metrics
 [wiki]: https://github.com/yourname/yourproject/wiki
-
-
-OS X & Linux:
-
-```sh
-npm install my-crazy-module --save
-```
-
-Windows:
-
-```sh
-edit autoexec.bat
-```
