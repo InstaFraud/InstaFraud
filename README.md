@@ -1,6 +1,6 @@
-# InstaFraud
+# InstaFraud App
 
-> Short blurb about what your product does.
+> This project has an educational goal, but it also mimics some of the features and functionalities that major social networking apps, like Instagram and Twitter, offer.
 
 [![NPM Version][npm-image]][npm-url]
 [![Build Status][travis-image]][travis-url]
