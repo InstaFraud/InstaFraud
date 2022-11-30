@@ -31,22 +31,23 @@ Describe how to install all development dependencies and how to run an automated
 To run front end  
 ```sh
 cd into Instafraud/my-app
-make install
+npm install
 npm start
 ```
 To run back end  
 ```sh
 cd into Instafraud/my-app
-make install
+npm install
 npm start
 ```
 To run run both front and back end on docker 
 
 ```sh
+###To run run both front and back end on docker 
 cd into Instafraud/my-app
-make install
+npm install
 cd into Instafraud/my-app
-make install
+npm install
 cd into Instafraud
 docker-compose up
 ```
