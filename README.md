@@ -28,6 +28,7 @@ The main goal of this project was to develop a full stack application that can a
 ## Development setup
 
 Describe how to install all development dependencies and how to run an automated test-suite of some kind. Potentially do this for multiple platforms.
+
 To run front end  
 ```sh
 cd into Instafraud/my-app
