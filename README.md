@@ -23,7 +23,7 @@ The main goal of this project was to develop a full stack application that can a
 * 0.0.2
     * Work in progress
 * 0.0.1
-    * The first proper release
+    * The first release
 
 ## Development setup
 
@@ -65,7 +65,7 @@ _For more examples and usage, please refer to the [Wiki][wiki]._
 
 ## Want To Contribute? You can
 
-1. Fork it (<[https://github.com/yourname/yourproject/fork](https://github.com/InstaFraud/InstaFraud.git)>)
+1. Fork it (<https://github.com/InstaFraud/InstaFraud.git>)
 2. Create your feature branch (`git checkout -b feature/anyName`)
 3. Commit your changes (`git commit -am 'Add some anyName'`)
 4. Push to the branch (`git push origin feature/anyName`)
