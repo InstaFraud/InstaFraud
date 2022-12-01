@@ -1,8 +1,10 @@
-FROM node:18.12.1
-ENV NODE_ENV=development
-COPY . /app
-WORKDIR /app
+FROM node:18.12.1 AS Production
+ENV NODE_ENV=production
+WORKDIR /src/backend
 COPY package.json .
+COPY package-lock.json .
 RUN npm install
-EXPOSE 4000
-CMD [ "node", "server.js"]
+COPY . .
+# EXPOSE 4000
+# RUN npm run build
+CMD ["sh", "-c", "npm run start"]
